@@ -1,0 +1,20 @@
+Package: raybonsai
+Type: Package
+Title: Procedurally Generate and Render 3D Trees
+Version: 0.1.0
+Authors@R: c(person("Tyler", "Morgan-Wall", email = "tylermw@gmail.com",
+    role = c("aut", "cph", "cre"), comment = c(ORCID = "0000-0002-3131-3814")),
+    person("Danielle", "Navarro", role=c("ctb", "cph")))
+Maintainer: Tyler Morgan-Wall <tylermw@gmail.com>
+Description: Generate procedural 3D trees and render them in 3D. Based on the `flametree` package by Danielle Navarro.
+Imports: 
+    dplyr,
+    rayrender,
+    tibble,
+    magrittr,
+    purrr,
+    tidyr
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0

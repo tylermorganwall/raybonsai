@@ -1,0 +1,37 @@
+pandoc: 2.3.1
+pkgdown: 1.3.0.9000
+pkgdown_sha: 2f40b4769ea9ad2312aa4cc93f27ab116461543b
+articles: []
+
+reference:
+  - title: "Generate"
+    desc: "Functions for generating objects to add to scenes"
+    contents:
+      - starts_with("generate")
+  - title: "Render Scene"
+    desc: "Function to render the current scene."
+    contents:
+      - starts_with("render")
+
+
+navbar:
+  title: "raybonsai"
+  type: inverse
+  left:
+    - icon: fa-home
+      href: index.html
+    - text: "Tutorials/Demos"
+      menu:
+      -  text: Generate Procedural 3D Trees in R
+         href: https://www.tylermw.com/raybonsai-generate-procedural-3d-trees-in-r/
+  right:
+    - icon: fa-file-code-o
+      text: "functions"
+      href: reference/index.html
+    - icon: fa-github fa-lg
+      text: "GitHub"
+      href: https://github.com/tylermorganwall/raybonsai
+
+authors:
+  Tyler Morgan-Wall:
+    href: https://www.tylermw.com
