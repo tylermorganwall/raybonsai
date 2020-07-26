@@ -3,7 +3,6 @@ on:
     branches: master
 
 name: pkgdown
-url: https://www.raybonsai.com
 
 jobs:
   pkgdown:
