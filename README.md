@@ -10,7 +10,7 @@
 <!-- badges: end -->
 
 raybonsai: Generate 3D procedural trees in R, rendered with rayrender\!
-Procedural generation code based on the flametree package by Davielle
+Procedural generation code based on the flametree package by Danielle
 Navarro.
 
 ## Installation
